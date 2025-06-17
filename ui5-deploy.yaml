@@ -16,8 +16,8 @@ builder:
       afterTask: generateCachebusterInfo
       configuration:
         target:
-          destination: MY414657
-          url: https://my414657.s4hana.cloud.sap
+          destination: MY418731
+          url: https://my418731.s4hana.cloud.sap
           authenticationType: reentranceTicket # SAML support for vscode
         app:
           name: ZSALARYPEND
