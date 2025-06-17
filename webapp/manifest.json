@@ -16,19 +16,19 @@
       "toolsId": "1824614d-a777-4696-b338-294b95236541"
     },
     "dataSources": {
-      "ZUI_SALARY_VAN": {
-        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZUI_SALARY_VAN',Version='0001')/$value/",
+      "ZUI_SALINT_VAN": {
+        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZUI_SALINT_VAN',Version='0001')/$value/",
         "type": "ODataAnnotation",
         "settings": {
-          "localUri": "localService/mainService/ZUI_SALARY_VAN.xml"
+          "localUri": "localService/mainService/ZUI_SALINT_VAN.xml"
         }
       },
       "mainService": {
-        "uri": "/sap/opu/odata/sap/ZUI_SALARY/",
+        "uri": "/sap/opu/odata/sap/ZUI_SALINT/",
         "type": "OData",
         "settings": {
           "annotations": [
-            "ZUI_SALARY_VAN"
+            "ZUI_SALINT_VAN"
           ],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "2.0"
