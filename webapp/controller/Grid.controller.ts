@@ -6,13 +6,13 @@ import ODataModel from "sap/ui/model/odata/v2/ODataModel";
 /**
  * @namespace zsalarypending.controller
  */
-export default class ZSALARY extends Controller {
+export default class Grid extends Controller {
 
     public oDataModel: ODataModel;
 
     /*eslint-disable @typescript-eslint/no-empty-function*/
     public onInit(): void {
-        this.oDataModel = new ODataModel("/sap/opu/odata/sap/ZUI_SALARY/", {
+        this.oDataModel = new ODataModel("/sap/opu/odata/sap/ZUI_SALINT/", {
             defaultCountMode: "None"
         });
     }
@@ -86,7 +86,6 @@ export default class ZSALARY extends Controller {
         let data = selectedData
             .map((element: any) => {
                 let data1 = element.getBindingContext()?.getObject() || {};
-                debugger;
                 return {
                     "Plant": data1.Plant,
                     "EmployeeCode": data1.EmployeeCode,

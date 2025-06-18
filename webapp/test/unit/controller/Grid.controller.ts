@@ -1,5 +1,5 @@
 /*global QUnit*/
-import Controller from "zsalarypending/controller/ZSALARY.controller";
+import Controller from "zsalarypending/controller/Grid.controller";
 
 QUnit.module("ZSALARY Controller");
 

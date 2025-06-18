@@ -8,7 +8,7 @@
     xmlns:u="sap.ui.unified"
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
-    controllerName="zsalarypending.controller.ZSALARY"
+    controllerName="zsalarypending.controller.Grid"
     height="100%"
 >
     <VBox
@@ -43,7 +43,7 @@
             width="100%"
         >
             <Table
-                id="x"
+                id="RespTable"
                 mode="MultiSelect"
             />
             <smartTable:customToolbar>

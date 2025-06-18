@@ -113,17 +113,17 @@
       },
       "routes": [
         {
-          "name": "RouteZSALARY",
+          "name": "RouteGrid",
           "pattern": ":?query:",
           "target": [
-            "TargetZSALARY"
+            "TargetGrid"
           ]
         }
       ],
       "targets": {
-        "TargetZSALARY": {
-          "id": "ZSALARY",
-          "name": "ZSALARY"
+        "TargetGrid": {
+          "id": "Grid",
+          "name": "Grid"
         }
       }
     },
